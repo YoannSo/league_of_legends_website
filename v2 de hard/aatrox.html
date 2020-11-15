@@ -45,7 +45,7 @@
         <p id="story">
             Autrefois, Aatrox et ses frères étaient honorés pour avoir défendu Shurima contre le Néant. Mais ils finirent par devenir une menace plus grande encore pour Runeterra : la ruse et la sorcellerie furent employées pour les battre. Cependant, après des siècles d'emprisonnement, Aatrox fut le premier à retrouver sa liberté, en corrompant et transformant les mortels assez stupides pour tenter de s'emparer de l'arme magique qui contenait son essence. Désormais en possession d'un corps qu'il a approximativement transformé pour rappeler son ancienne forme, il arpente Runeterra en cherchant à assouvir sa vengeance apocalyptique.
         </p>
-        <h1 id="competence">
+        <h1 id="competence" >
             COMPÉTENCES
         </h1>
         <table>
@@ -95,6 +95,7 @@
                         Aatrox libère sa forme démoniaque, effrayant les sbires ennemis proches et augmentant ses dégâts d'attaque, ses soins et sa vitesse de déplacement. La durée est prolongée s'il participe à l'élimination d'un champion ennemi.
                     </p>
                     </td>
+<<<<<<< Updated upstream
                     </tr>
                     <tr>
                         <td style="text-align:left;" colspan="2">
@@ -107,6 +108,44 @@
                             </tr>
                         </table>
                         <script>
+=======
+                    <td>
+                        <p id="spell1" class="spell1" name="spell">
+                            <i style="color: grey"> PASSIVE</i> </div><br>
+                            <b>POSTURE DU MASSACREUR</b> <br>
+
+                            Régulièrement, la prochaine attaque de base d'Aatrox inflige des dégâts physiques supplémentaires et le soigne, selon un pourcentage des PV max de la cible.
+                        </p>
+                        <p id="spell2" name="spell" class="spell1" style="display: none">
+                           <b> ÉPÉE DES DARKIN</b> <br>
+                            Aatrox abat son épée devant lui, infligeant des dégâts physiques. Il peut frapper jusqu'à 3 fois et chaque coup a une zone d'effet différente.
+                        </p>
+                        <p id="spell3" name="spell"  class="spell1" style="display: none">
+                            <b>CHAÎNES INFERNALES</b> <br>
+                            Aatrox frappe le sol, blessant le premier ennemi touché. Les champions et les grands monstres doivent vite quitter la zone d'effet sous peine d'être ramenés de force au point d'impact et de subir à nouveau les dégâts.
+                        </p>
+                        <p id="spell4" name="spell" class="spell1" style="display: none">
+                            <b>RUÉE OBSCURE</b> <br>
+                            Passivement, Aatrox se soigne quand il blesse des champions ennemis. À l'activation, il se rue dans une direction.
+                        </p>
+                        <p id="spell5" name="spell" class="spell1" style="display: none">
+                           <b> FOSSOYEUR DES MONDES</b> <br>
+                            Aatrox libère sa forme démoniaque, effrayant les sbires ennemis proches et augmentant ses dégâts d'attaque, ses soins et sa vitesse de déplacement. La durée est prolongée s'il participe à l'élimination d'un champion ennemi.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left;" colspan="2">
+                        <input type="button" class="spellimage1" onclick="afficher(1)">
+                        <input type="button" class="spellimage2" onclick="afficher(2)">
+                        <input type="button" class="spellimage3" onclick="afficher(3)">
+                        <input type="button" class="spellimage4" onclick="afficher(4)">
+                        <input type="button" class="spellimage5" onclick="afficher(5)">
+                        <td>
+                        </tr>
+                    </table>
+                    <script>
+>>>>>>> Stashed changes
     function afficher(val){ //cette fonction va permettre d'afficher les bons paragraphes selon la valeur de "val"
     let vid1=document.getElementById("vid1");
     let vid2=document.getElementById("vid2");

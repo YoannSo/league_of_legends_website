@@ -48,7 +48,8 @@ canvas {
     margin-left: 90px;
 }
 #story{
-    color: lightgray;
+    color: grey;
+    font-size: x-large;
     margin-left: 500px;
     margin-right: 900px;
     line-height: 25px;
@@ -68,9 +69,10 @@ table tr td{
 .spell1{
     color: white;
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 250px;
     text-align: left;
+    font-size: large;
 }
 .spellimage1{
     background: url("aatroxSpell1.PNG");
@@ -125,9 +127,14 @@ table tr td{
 
 }
 #competence{
+    font-size: xx-large;
     color: white;
-    margin-left: 1200px;
+    margin-left: 1400px;
 }
 .hide{
     display: none;
+}
+.italic{
+    font-style: italic;
+    color: grey;
 }
