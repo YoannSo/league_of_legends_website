@@ -1,10 +1,12 @@
-body{
+/*body{
 	background: url(https://wallpaperaccess.com/full/217097.jpg);
 	background-size: cover;
 	background-position: 0px -100px;
-}
+	filter: blur(8px);
+	
+}*/
 
-#pDescription{
+/*#pDescription{
 	font-size: 20px;
 	width: 300px;
 	margin-left: 10px;
@@ -15,9 +17,29 @@ body{
 	margin-top: 200px;
 	color:white;
 	margin-left: 10px;
+}*/
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
-.container{
-	color:white;
+.bg-image {
+  background-image: url("https://wallpaperaccess.com/full/217097.jpg");
+  background-size: cover;
+  height: 1080px;
+  filter: blur(3px);
+  
 }
-
