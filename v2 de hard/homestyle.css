@@ -1,23 +1,48 @@
-body{
-	background: url(https://wallpaperaccess.com/full/217097.jpg);
+.bg-text{
+	font-family: "BeaufortforLOL-Heavy";
+	font-size:40px;
+	padding: 10%;
+	border: 3px solid black;
+	background-color: white;
+}
+
+.welcome-text {
+	font-family: "BeaufortforLOL-Heavy";
+	font-size:100px; 
+	background-color: rgba(20,20,20, 0.7); 
+	color: white;
+	font-weight: bold;
+	border: 4px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 60%;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.bg-image {
+	background-image: url("https://wallpaperaccess.com/full/217097.jpg");
 	background-size: cover;
-	background-position: 0px -100px;
+	height: 1080px;
+	width: 100%;
+	filter: blur(8px);
+	border: 3px solid black;
 }
 
-#pDescription{
-	font-size: 20px;
-	width: 300px;
-	margin-left: 10px;
-	color:white;
+#rewards{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#description{
-	margin-top: 200px;
-	color:white;
-	margin-left: 10px;
+.footer{
+	clear: both;
+	font-family: "BeaufortforLOL-Heavy";
+	border: 3px solid black;
+	padding: 1%;
+	height: 130px;
 }
-
-.container{
-	color:white;
-}
-
