@@ -1,0 +1,23 @@
+body{
+	background: url(https://wallpaperaccess.com/full/217097.jpg);
+	background-size: cover;
+	background-position: 0px -100px;
+}
+
+#pDescription{
+	font-size: 20px;
+	width: 300px;
+	margin-left: 10px;
+	color:white;
+}
+
+#description{
+	margin-top: 200px;
+	color:white;
+	margin-left: 10px;
+}
+
+.container{
+	color:white;
+}
+
