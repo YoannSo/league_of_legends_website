@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="aatroxstyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div class="scene"></div>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" id="brand" href="#"><img src="https://lolpy.readthedocs.io/en/latest/_images/lol-logo.png" width="70"></a>
+
+    <ul class="nav navbar-nav" id="nav1">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Champions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Items</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Maps</a>
+        </li>
+    </ul>
+    <form class="form-inline navbar-form pull-right">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-success-outline" type="submit">Search</button>
+    </form>
+
+</nav>
+<script src="./three.min.js"></script>
+<script src="./GLTFLoader.js"></script>
+<script type="module" src="./app.js"></script>
+<form>
+<h1 id="titre">
+    <p id="titrep1"> Epéé des Darkin  </p>
+    <p id="titrep2">AATROX</p>
+</h1>
+
+<p id="story">
+    Autrefois, Aatrox et ses frères étaient honorés pour avoir défendu Shurima contre le Néant. Mais ils finirent par devenir une menace plus grande encore pour Runeterra : la ruse et la sorcellerie furent employées pour les battre. Cependant, après des siècles d'emprisonnement, Aatrox fut le premier à retrouver sa liberté, en corrompant et transformant les mortels assez stupides pour tenter de s'emparer de l'arme magique qui contenait son essence. Désormais en possession d'un corps qu'il a approximativement transformé pour rappeler son ancienne forme, il arpente Runeterra en cherchant à assouvir sa vengeance apocalyptique.
+</p>
+<h1 id="competence">
+    COMPÉTENCES
+</h1>
+<table>
+    <tr>
+        <td>
+
+            <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 700px" style="margin-top: 500px" loop="true" >
+                <source src="spell1.webm"
+                        type="video/webm" class="hide">
+            </video>
+            <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 700px" style="margin-top: 500px"  loop="true">
+                <source src="spell2.webm"
+                        type="video/webm" style="display: none" >
+            </video>
+            <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 700px" style="margin-top: 500px"  loop="true">
+                <source src="spell3.webm"
+                        type="video/webm">
+            </video>
+            <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 700px" style="margin-top: 500px"  loop="true">
+                <source src="spell4.webm" type="video/webm">
+            </video>
+            <script>
+                let vid2=document.getElementById("vid2");
+                let vid3=document.getElementById("vid3");
+                let vid4=document.getElementById("vid4");
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+
+            </script>
+        </td>
+        <td>
+    <p id="spell1" class="spell1" name="spell">
+        PASSIVE
+        POSTURE DU MASSACREUR
+        Régulièrement, la prochaine attaque de base d'Aatrox inflige des dégâts physiques supplémentaires et le soigne, selon un pourcentage des PV max de la cible.
+    </p>
+    <p id="spell2" name="spell" class="spell1" style="display: none">
+        ÉPÉE DES DARKIN
+        Aatrox abat son épée devant lui, infligeant des dégâts physiques. Il peut frapper jusqu'à 3 fois et chaque coup a une zone d'effet différente.
+    </p>
+    <p id="spell3" name="spell"  class="spell1" style="display: none">
+        CHAÎNES INFERNALES
+        Aatrox frappe le sol, blessant le premier ennemi touché. Les champions et les grands monstres doivent vite quitter la zone d'effet sous peine d'être ramenés de force au point d'impact et de subir à nouveau les dégâts.
+    </p>
+    <p id="spell4" name="spell" class="spell1" style="display: none">
+        RUÉE OBSCURE
+        Passivement, Aatrox se soigne quand il blesse des champions ennemis. À l'activation, il se rue dans une direction.
+    </p>
+    <p id="spell5" name="spell" class="spell1" style="display: none">
+        FOSSOYEUR DES MONDES
+        Aatrox libère sa forme démoniaque, effrayant les sbires ennemis proches et augmentant ses dégâts d'attaque, ses soins et sa vitesse de déplacement. La durée est prolongée s'il participe à l'élimination d'un champion ennemi.
+    </p>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:left;" colspan="2">
+    <input type="button" class="spellimage1" onclick="afficher(1)">
+    <input type="button" class="spellimage2" onclick="afficher(2)">
+    <input type="button" class="spellimage3" onclick="afficher(3)">
+    <input type="button" class="spellimage4" onclick="afficher(4)">
+    <input type="button" class="spellimage5" onclick="afficher(5)">
+        <td>
+
+    </tr>
+</table>
+
+<script>
+    function afficher(val){ //cette fonction va permettre d'afficher les bons paragraphes selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+        if (val==1){
+            spell1.style.display="block";
+            spell2.style.display="none";
+            spell3.style.display="none";
+            spell4.style.display="none";
+            spell5.style.display="none";
+            vid1.style.display="block";
+            vid2.style.display="none";
+            vid3.style.display="none";
+            vid4.style.display="none";
+
+
+        }
+        if (val==2){
+            spell1.style.display="none";
+            spell2.style.display="block";
+            spell3.style.display="none";
+            spell4.style.display="none";
+            spell5.style.display="none";
+            vid1.style.display="none";
+            vid2.style.display="block";
+            vid3.style.display="none";
+            vid4.style.display="none";
+
+        }
+        if (val==3){
+            spell1.style.display="none";
+            spell2.style.display="none";
+            spell3.style.display="block";
+            spell4.style.display="none";
+            spell5.style.display="none";
+            vid1.style.display="none";
+            vid2.style.display="none";
+            vid3.style.display="block";
+            vid4.style.display="none";
+
+        }
+        if (val==4){
+            spell1.style.display="none";
+            spell2.style.display="none";
+            spell3.style.display="none";
+            spell4.style.display="block";
+            spell5.style.display="none";
+            vid1.style.display="none";
+            vid2.style.display="none";
+            vid3.style.display="none";
+            vid4.style.display="block";
+
+        }
+        if (val==5){
+            spell1.style.display="none";
+            spell2.style.display="none";
+            spell3.style.display="none";
+            spell4.style.display="none";
+            spell5.style.display="block";
+
+        }
+    }
+</script>
+</form>
+</body>
+
+</html>
