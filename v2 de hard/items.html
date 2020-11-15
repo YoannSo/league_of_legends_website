@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="items.css" />
+    <title>Document</title>
+</head>
+<body>
+
+<div class="scene"></div>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" id="brand" href="#"><img src="https://lolpy.readthedocs.io/en/latest/_images/lol-logo.png" width="70"></a>
+
+    <ul class="nav navbar-nav" id="nav1">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Champions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Items</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Maps</a>
+        </li>
+    </ul>
+    <form class="form-inline navbar-form pull-right">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-success-outline" type="submit">Search</button>
+    </form>
+</nav>
+
+
+<div class="container">
+
+    <div class="container-onglets">
+        <div class="onglets active" data-anim="1">Objets Mythique</div>
+        <div class="onglets" data-anim="2">Objets Legendaire</div>
+        <div class="onglets" data-anim="3">Objets Basiques</div>
+    </div>
+
+    <div class="contenu activeContenu" data-anim="1">
+        <h1> Les objets mythique</h1>
+        <div class="tooltip">
+            Survole moi bg
+
+                <span class="tooltiptext">JE suis l'arc</span>
+
+        </div>
+    </div>
+
+    <div class="contenu" data-anim="2">
+        <h1> Les objets Legendaire</h1>
+    </div>
+
+    <div class="contenu" data-anim="3">
+        <h1> Les objets Basiques</h1>
+    </div>
+    <script src="items.js"></script>
+
+
+
+</div>
+
+</body>
+
+</html>
