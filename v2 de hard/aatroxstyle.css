@@ -51,7 +51,7 @@ canvas {
     color: grey;
     font-size: x-large;
     margin-left: 500px;
-    margin-right: 900px;
+    margin-right: 600px;
     line-height: 25px;
 
 }
@@ -73,6 +73,7 @@ table tr td{
     margin-right: 250px;
     text-align: left;
     font-size: large;
+    background: rgba(0,0,0,0.5);
 }
 .spellimage1{
     background: url("aatroxSpell1.PNG");
@@ -130,6 +131,7 @@ table tr td{
     font-size: xx-large;
     color: white;
     margin-left: 1400px;
+
 }
 .hide{
     display: none;
