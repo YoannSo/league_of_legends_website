@@ -48,6 +48,12 @@ b{
     font-size: 30px;
     margin-left: 80px;
 }
+#champlie{
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: xx-large;
+}
 #titrep2{
     color:mediumpurple;
     font-size: 50px;
@@ -61,6 +67,13 @@ b{
     margin-right: 600px;
     line-height: 25px;
 
+}
+.rond{
+
+    width: 70px;
+    height: 70px;
+    clip-path:ellipse(50% 50%);
+    margin-left: 20px;
 }
 table tr td{
     border-spacing: 1000px;
@@ -78,7 +91,7 @@ table tr td{
     color: white;
     margin-top: 50px;
     margin-left: 20px;
-    margin-right: 250px;
+    margin-right: 100px;
     text-align: left;
     font-size: large;
     background: rgba(0,0,0,0.5);
@@ -138,7 +151,7 @@ table tr td{
 #competence{
     font-size: xx-large;
     color: white;
-    margin-left: 1400px;
+    margin-left: 1500px;
 
 }
 .hide{
