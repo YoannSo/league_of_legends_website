@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "BeaufortforLOL-Heavy";
 }
 
 body {
-    font-family: sans-serif;
+
     overflow: hidden;
     background-image: url("aatroxbackground.jpg");
     background-size: 100% 100%;
