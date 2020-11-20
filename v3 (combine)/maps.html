@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="maps.css" />
+    <title>Document</title>
+</head>
+<body>
+
+<div class="scene"></div>
+
+<!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("navbar.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
+
+
+<div class="container">
+
+    <div class="container-onglets">
+        <div class="onglets active" data-anim="1">La Faille de l'Invocateur</div>
+        <div class="onglets" data-anim="2">L'Âbime Hurlant</div>
+        <div class="onglets" data-anim="3">La Forêt Tortutrée</div>
+
+
+    </div>
+
+    <div class="contenu activeContenu" data-anim="1">
+
+        <img class="map" src="https://loltracker.com/images/easyblog_articles/6605/02_Summoner_s_Rift_hi182k3q611izhk9dbql.jpg" >
+        <p class="test">
+            <b>La Faille de l'Invocateur</b> est le Champ de Justice le plus utilisé dans League of Legends. Ce Champ de Justice est utilisé pour des parties de 5 contre 5.</p>
+        <p class="test">La Faille se situe entre <b>Freljord</b>, <b>la rivière Serpentine</b> et la <b>montagne Ironspine</b>. La forêt où se situe la Faille a été le site de <b>plusieurs batailles</b> au cours des diverses guerres runiques de Runeterra. De nos jours, ce Champ de Justice est connu comme le terrain ultime pour tout apprenti invocateur.</p>
+        <p class="test">La Faille de l'invocateur est la première et la <b>plus grande arène du jeu</b> et la plus populaire, avec une <b>configuration en miroir</b> (sur la diagonale) qui présente trois voies d'accès menant à la base ennemie. Chaque voie est défendue par <b>trois tourelles</b> et un <b>inhibiteur</b>, et le <b>Nexus</b> est protégé par deux tourelles. Chaque côté de la carte présente de <b>grandes zones de jungle</b> abritant de puissants enchantements, et la rivière centrale accueille deux grands monstres, le  <b>Baron Nashor</b> et le  <b>Dragon</b>.
+
+        </p>
+        <div  class="nashor commun">
+            <img  class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618320983293952/48.png">
+            <span class="textBelow"><b>Le Baron Nashor</b> <br>
+                Si vous tuez le Baron vous optenez 40 puissances, 40 dégâts d'attaque et vous rendez les sbires à proximité plus puissants. (cet effet dur 3 minutes 30 secondes)
+            </span>
+
+        </div>
+        <div  class="dragon commun">
+            <img  class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618214614564894/48.png">
+            <span class="textAbove"><b>Le Dragon</b> <br>
+                Si vous tuez le Dragon vous gagnez des effets permanents selon le type de Dragon
+            </span>
+        </div>
+            <div  class="bleu commun">
+                <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618136282791946/48.png">
+                <span class="textBelow"><b>La Sentinel Bleu</b> <br>
+                Si vous tuez la sentinel vous gagnerez un bonus de régénération de mana et de l'accélération de capacité
+            </span>
+        </div>
+        <div  class="red commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618186659528734/48.png">
+            <span class="textAbove"><b>Le Combatant Rouge </b> <br>
+                Si vous tuez le Combatant vous gagnerez un bonus de régénération de PV, un bonus de dégâts et vous ferrez des dégâts de brulures
+                </span>
+    </div>
+        <div  class="gromp commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618106867875866/48.png">
+            <span class="textAbove"><b>Le Gromp </b> <br>
+                Si vous tuez le Gromp vous gagnerez des PO et de l'XP
+                </span>
+        </div>
+        <div  class="golem commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618002350276648/48.png">
+            <span class="textBelow"><b>Les Golems </b> <br>
+                Si vous tuez les Golems vous gagnerez des PO et de l'XP. <br> Attention ! Quand vous en tuer 1 ils se divisent
+                </span>
+        </div>
+        <div  class="loup commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778618045068869683/48.png">
+            <span class="textBelow"><b>Les Loups </b> <br>
+                Si vous tuez les Loups vous gagnerez des PO et de l'XP.
+                </span>
+        </div>
+        <div  class="corbeau commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778617980380250112/48.png">
+            <span class="textAbove"><b>Les Corbeaux </b> <br>
+                Si vous tuez les Corbeaux vous gagnerez des PO et de l'XP. <br> Attention ! Ils sont nombreaux !
+                </span>
+        </div>
+        <div  class="top commun">
+            <img src="https://cdn.discordapp.com/attachments/295963893753315331/778606157127745546/TopPng.png">
+            <span class="textBelow"><b>La Voie du Haut </b> <br>
+                Sur cette voie s'affronte les guerriers les plus valeureux. On y trouve plus particuliere des personnages avec beaucoup de PV.
+                </span>
+        </div>
+        <div  class="jungle commun">
+            <img src="https://cdn.discordapp.com/attachments/295963893753315331/778607460159717416/JnglPng.png">
+            <span class="textAbove"><b>La Jungle </b> <br>
+                Ceci n'est pas une voie. Quand vous choisissez la jungle votre but et de faire les camps et d'aider vos alliés sur les differentes voies
+                </span>
+        </div>
+        <div  class="mid commun">
+            <img src="https://cdn.discordapp.com/attachments/295963893753315331/778607451535835196/MidPng.png">
+            <span class="textBelow"><b>La Voie du Milieu </b> <br>
+                Sur cette voie du milieu s'affronte les mages les plus puissant du pays.
+                </span>
+        </div>
+        <div  class="support commun">
+            <img src="https://cdn.discordapp.com/attachments/295963893753315331/778607440483975178/SuppPng.png">
+            <span class="textAbove"><b>La Voie du Bas </b> <br>
+                Sur cette voie vous etes le support, le pillier de votre coéquipier. Votre but le défendre à tout prix.
+                </span>
+        </div>
+
+        <div  class="adc commun">
+            <img src="https://cdn.discordapp.com/attachments/295963893753315331/778607470431305748/BotPng.png">
+            <span class="textAbove"><b>La Voie du Bas </b> <br>
+                Sur cette voie vous etes l'adc, votre but et de triompher sur cette voie avec votre coéquipier qui serra la pour vous proteger.
+                </span>
+        </div>
+    </div>
+
+
+        <div class="contenu" data-anim="2">
+            <img class="map" src="https://loltracker.com/images/easyblog_images/576/ARAM1.jpg" >
+            <p class="test">
+            <p class="test"> <b>L'Abîme Hurlant</b> est un Champ de Justice spécialement conçu pour <b>les parties ARAM</b> (de l'anglais All Random All Mid).</p>
+            <p class="test"> Cette carte représente une partie de <b>Freljord</b> partagée entre un <b>Sublimé</b> (du côté bleu) et un <b>spéléologue de Piltover</b> (du côté rouge). Elle fait partie des cartes <b>les plus petites</b> du jeu qui a également servie à l'Epreuve du Solstice dans les Modes de jeu à durée limitée.</p>
+            <div  class="heal1 commun">
+                <img class="rond" src="https://cdn.discordapp.com/attachments/775688090391805992/778623053700923402/test.png">
+                <span class="textBelow"><b>Heal </b> <br>
+                Récuperéz ceci pour régénérez 200Pv à vous et vos alliés
+                </span>
+            </div>
+            <div  class="heal2 commun">
+                <img class="rond" src="https://cdn.discordapp.com/attachments/775688090391805992/778623053700923402/test.png">
+                <span class="textBelow"><b>Heal </b> <br>
+                Récuperéz ceci pour régénérez 200Pv à vous et vos alliés
+                </span>
+            </div>
+            <div  class="heal3 commun">
+                <img class="rond" src="https://cdn.discordapp.com/attachments/775688090391805992/778623053700923402/test.png">
+                <span class="textBelow"><b>Heal </b> <br>
+                Récuperéz ceci pour régénérez 200Pv à vous et vos alliés
+                </span>
+            </div>
+            <div  class="heal4 commun">
+                <img class="rond" src="https://cdn.discordapp.com/attachments/775688090391805992/778623053700923402/test.png">
+                <span class="textBelow"><b>Heal </b> <br>
+                Récuperéz ceci pour régénérez 200Pv à vous et vos alliés
+                </span>
+            </div>
+        <p>
+
+        </div>
+
+
+    <div class="contenu" data-anim="3">
+        <img class="map" src="https://images1.wikia.nocookie.net/__cb20130426195249/leagueoflegends/images/c/c1/TTmap.jpg" >
+        <p class="test">
+        <p class="test"> <b>La Forêt torturée</b> est la seconde carte classique de League of Legends. Cette carte possède la particularité d'être <b>rapide</b>, avec pour principales mécaniques des assauts tout aussi rapides que sanglants. Pour <b>gagner</b>, il faut avancer vers le base ennemie <b>détruire le nexus</b>.</p>
+        <p class="test"> <b>Plus petite</b> que la Faille de l'invocateur, la Forêt torturée est configurée de <b>façon horizontale</b> avec deux lignes possédant une <b>zone neutre</b>. <b>Des tourelles</b> sont placées sur chaque ligne, <b>le nexus</b> est quant à lui défendu par une seule tourelle. Les équipes sont composés de seulement <b>trois champions</b>, chacun d'eux apparaissant avec un montant massif de PO. La petitesse de la carte et le rapide gain d'EXP fait que les parties sont <b>rapides</b> avec des <b>scores généralement élevés</b>.</p>
+        <div  class="spider commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778616547987423232/300.png">
+        <span class="textBelow"><b>L'Araignée </b> <br>
+                Si vous tuez l'Araignée vous optenez 40 puissances, 40 dégâts d'attaque et vous rendez les sbires à proximité plus puissants. (cet effet dur 3 minutes 30 secondes)
+                </span>
+        </div>
+        <div  class="golems commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778620244507754516/48.png">
+            <span class="textBelow"><b>Les Golems </b> <br>
+                Si vous tuez les Loups vous gagnerez des PO et de l'XP.
+                </span>
+        </div>
+        <div  class="loups commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778620277767798804/48.png">
+            <span class="textBelow"><b>Les Loups </b> <br>
+                Si vous tuez les Loups vous gagnerez des PO et de l'XP.
+                </span>
+        </div>
+        <div  class="esprit commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/695256427232493608/778620260516364318/48.png">
+            <span class="textBelow"><b>Les Esprits </b> <br>
+                Si vous tuez les esprits vous gagnerez des PO et de l'XP.
+                </span>
+        </div>
+        <div  class="heal5 commun">
+            <img class="rond" src="https://cdn.discordapp.com/attachments/775688090391805992/778623053700923402/test.png">
+            <span class="textBelow"><b>Heal </b> <br>
+                Récuperéz ceci pour régénérez 200Pv à vous et vos alliés
+                </span>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+
+
+
+    </div>
+    <script src="maps.js"></script>
+
+</div>
+
+
+
+</body>
+
+</html>
