@@ -1,0 +1,178 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span b{
+    color: mediumpurple;
+    font-size: large;
+}
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    background-image: url("https://www.teahub.io/photos/full/23-233690_league-of-legends-desktop-background-shadow-isles.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.navbar-dark{
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+#brand{
+    margin-top: -10px;
+    height: 100px;
+}
+
+.nav navbar-nav{
+    text-align: center;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1900px;
+    height: 900px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.item{
+    position: relative;
+    left: 4%;
+    top:8%;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container-onglets{
+    background: rgba(0,0,0,0.4);
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+.onglets {
+    width: 750px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.onglets:not(:nth-child(6)) {
+    border-right: 1px solid #333;
+}
+span i{
+    color: yellow;
+
+}
+.titre{
+    color: #f1f1f1;
+    font-weight: bold;
+}
+.contenu {
+    height: 70%;
+    width: 100%;
+
+    opacity: 0;
+    position: absolute;
+
+}
+.activeContenu{
+    z-index: 1;
+}
+
+
+.contenu p {
+    padding: 20px;
+}
+
+
+.icon:hover > span{
+    opacity: 1;
+}
+/* Tooltip container */
+
+/*.tooltip {*/
+/*    position: relative;*/
+/*    left: 10%;*/
+/*    top:10%;*/
+/*}*/
+
+.item .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 35%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.item .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%) rotate(180deg);
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.item:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+ /*Anim*/
+
+.active {
+    background:rgba(220,220,220,0.8);
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.activeContenu {
+    animation: fade 0.5s forwards;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
