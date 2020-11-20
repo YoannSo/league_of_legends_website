@@ -4,7 +4,7 @@ let container;
 let camera;
 let renderer;
 let scene;
-let aatrox;
+let aurel;
 
 
 function init() {
