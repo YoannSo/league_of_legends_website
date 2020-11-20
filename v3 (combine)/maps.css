@@ -112,6 +112,7 @@ span i{
 
 
 .contenu p {
+    text-indent: 20px;
     padding: 20px;
 }
 

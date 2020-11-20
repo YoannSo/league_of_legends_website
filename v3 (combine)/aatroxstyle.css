@@ -54,6 +54,7 @@ b{
     margin-left: 90px;
 }
 #story{
+    text-indent: 20px;
     color: grey;
     font-size: x-large;
     margin-left: 500px;
@@ -73,6 +74,7 @@ table tr td{
 }
 
 .spell1{
+
     color: white;
     margin-top: 50px;
     margin-left: 20px;
