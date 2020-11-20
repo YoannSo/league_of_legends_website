@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     overflow: hidden;
     background-image: url("aatroxbackground.jpg");
-    background-size: 100% 70%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -36,7 +36,12 @@ canvas {
     top: 110px;
 
 }
-
+b{
+    color: rebeccapurple;
+}
+#titre{
+    margin-top: 90px;
+}
 #titrep1{
     color: white;
     font-size: 30px;
