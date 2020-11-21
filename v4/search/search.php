@@ -44,17 +44,12 @@ include_once "../includes/dbh.php";
 			if($queryResult > 0){
 				while($row = mysqli_fetch_assoc($result)){
 					$count++;
-
-
-
+					
 					echo "<div class='search-results'>
 					<h3 id='result'>".$count. ") Champion: </h3> <a href=../champions/".$row['name']."/".$row['name'].".html>".$row['name']."</a>
 					<h3 id='result'> Role: </h3>".$row['type'].
 					"<h3 id='result'> Lane: </h3>".$row['lane']."
 					</div>";	
-
-					// echo "<div class='search-results'>
-					// <a href=".$row['name'].".html>";
 				}
 				if($queryResult == 1){
 					echo "<p id='numberofresults'>There is " .$count. " result </p>";
@@ -69,8 +64,5 @@ include_once "../includes/dbh.php";
 		}
 		?>
 	</div>
-
-	<!-- <a href="aatrox.html">aatrox page test</a> -->
-
 </body>
 </html>
