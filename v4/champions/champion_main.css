@@ -7,3 +7,29 @@
 	background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/779695748669374474/champ_background.jpg);
 	background-size: 100% 100%;
 }
+
+.all-champs{
+	margin-top: 250px;	
+	margin-right: auto;
+	margin-left: auto;
+	width:85%;
+	background-color: rgba(100,100,100,0.8);
+}
+
+#title{
+	font-size:60px;
+	text-align: center;
+}
+
+.myTable{
+	border-collapse: separate;
+	border-spacing: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.myTable td {
+	width: 120px;
+	height: 120px;
+	border: 3px solid black;
+}
