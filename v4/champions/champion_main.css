@@ -1,0 +1,9 @@
+.champ-header{
+	padding:30px;
+	font-family: "BeaufortforLOL-Heavy";
+	border: 3px solid black;
+	width: 100%;
+	height: 941px;
+	background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/779695748669374474/champ_background.jpg);
+	background-size: 100% 100%;
+}
