@@ -40,7 +40,7 @@ session_start();
 
 </ul>
 
-<form class="form-inline navbar-form pull-right" action="search/search.php" method="POST" style="font-size:40px;padding:10px;margin-right: 50px;" >
+<form class="form-inline navbar-form pull-right" action="../search/search.php" method="POST" style="font-size:40px;padding:10px;margin-right: 50px;" >
   <input class="form-control" type="text" placeholder="Search" name="search">
   <button class="btn btn-success-outline" type="submit" name="submit-search">Search</button>
 </form>
