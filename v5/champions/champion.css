@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BeaufortforLOL-Heavy";
+}
+
+body {
+
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar-dark{
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+#brand{
+    margin-top: -10px;
+    height: 100px;
+}
+
+.nav navbar-nav{
+    text-align: center;
+}
+
+.scene,
+canvas {
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    left: 0px;
+    top: 110px;
+
+}
+b{
+    color: rebeccapurple;
+}
+#titre{
+    margin-top: 90px;
+}
+#titrep1{
+    color: white;
+    font-size: 30px;
+    margin-left: 80px;
+}
+#champlie{
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: xx-large;
+}
+#titrep2{
+    color:mediumpurple;
+    font-size: 50px;
+    margin-left: 90px;
+}
+#story{
+    text-indent: 20px;
+    color: grey;
+    font-size: x-large;
+    margin-left: 500px;
+    margin-right: 600px;
+    line-height: 25px;
+
+}
+.rond{
+
+    width: 70px;
+    height: 70px;
+    clip-path:ellipse(50% 50%);
+    margin-left: 20px;
+}
+table tr td{
+    border-spacing: 1000px;
+}
+.spelltest1{
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.spell1{
+
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: large;
+    background: rgba(0,0,0,0.5);
+}
+.spellimage1{
+
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-bottom: 450px;
+    margin-left: 700px;
+    margin-top: 20px;
+
+
+}
+.spellimage2{
+
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-bottom: 450px;
+    margin-left: 50px;
+
+}
+video{
+    margin-left: 550px;
+}
+#s1{
+
+}
+.spellimage3{
+
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-bottom: 450px;
+    margin-left: 50px;
+
+}
+.spellimage4{
+
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-bottom: 450px;
+    margin-left: 50px;
+
+}
+.spellimage5{
+
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-bottom: 450px;
+    margin-left: 50px;
+
+}
+#competence{
+    font-size: xx-large;
+    color: white;
+    margin-left: 1500px;
+
+}
+.hide{
+    display: none;
+}
+.italic{
+    font-style: italic;
+    color: grey;
+}

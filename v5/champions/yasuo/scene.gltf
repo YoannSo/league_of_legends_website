@@ -1,0 +1,378 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        102.70563507080078,
+        21.267011642456055,
+        102.10015106201172
+      ],
+      "min": [
+        -102.70565795898438,
+        0.22548823058605194,
+        -102.70568084716797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4440,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        1,
+        1,
+        0.98754316568374634
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.99311500787734985
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        0.97578400373458862,
+        0.9790949821472168
+      ],
+      "min": [
+        0.014890000224113464,
+        0.022321000695228577
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2960,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        0.97578400373458862,
+        0.9790949821472168
+      ],
+      "min": [
+        0.014890000224113464,
+        0.022321000695228577
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 828,
+      "max": [
+        369
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8880,
+      "componentType": 5126,
+      "count": 5423,
+      "max": [
+        56.378128051757812,
+        254.73234558105469,
+        62.744255065917969
+      ],
+      "min": [
+        -59.229156494140625,
+        16.589807510375977,
+        -153.38772583007812
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 73956,
+      "componentType": 5126,
+      "count": 5423,
+      "max": [
+        0.99987435340881348,
+        0.99997502565383911,
+        0.99999111890792847
+      ],
+      "min": [
+        -0.99987435340881348,
+        -0.99999845027923584,
+        -0.99999266862869263
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5920,
+      "componentType": 5126,
+      "count": 5423,
+      "max": [
+        0.99476099014282227,
+        0.99771898984909058
+      ],
+      "min": [
+        0.0011769999982789159,
+        0.0063479999080300331
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49304,
+      "componentType": 5126,
+      "count": 5423,
+      "max": [
+        0.99476099014282227,
+        0.99771898984909058
+      ],
+      "min": [
+        0.0011769999982789159,
+        0.0063479999080300331
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3312,
+      "componentType": 5125,
+      "count": 24297,
+      "max": [
+        5422
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Yoru Skins (https://sketchfab.com/IMChangkyun)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/unforgiven-blade-yasuo-lol-custom-skin-05c29b3fb7454359a09e47c3e49a3832",
+      "title": "Unforgiven Blade Yasuo [LoL Custom Skin]"
+    },
+    "generator": "Sketchfab-9.19.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 100500,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 92688,
+      "byteOffset": 100500,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 139032,
+      "byteOffset": 193188,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 332220,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Podium_baseColor.png"
+    },
+    {
+      "uri": "textures/Yasuo_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Podium",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Yasuo",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Podium_pCylinder4_Podium_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Podium_pCylinder4_Yasuo_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "b43c314477334d9b8f0b359fb6e9bd79.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "Podium_pCylinder4"
+    },
+    {
+      "mesh": 0,
+      "name": "Podium_pCylinder4_Podium_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Podium_pCylinder4_Yasuo_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
