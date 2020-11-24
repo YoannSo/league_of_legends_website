@@ -41,7 +41,7 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         yasuo = gltf.scene.children[0];
-        yasuo.position.set(0,0,0);
+        yasuo.position.set(-40,10,0);
         yasuo.scale.set(1,1,1);
         animate();
 

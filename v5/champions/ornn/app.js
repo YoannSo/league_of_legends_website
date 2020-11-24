@@ -41,8 +41,8 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         ornn = gltf.scene.children[0];
-        ornn.position.set(0,100,0);
-        ornn.scale.set(0.12,0.12,0.12);
+        ornn.position.set(-20,100,0);
+        ornn.scale.set(0.14,0.14,0.14);
         animate();
 
     });

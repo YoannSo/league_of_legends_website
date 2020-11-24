@@ -41,7 +41,7 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         fizz = gltf.scene.children[0];
-        fizz.position.set(0,150,0);
+        fizz.position.set(-50,150,0);
         fizz.scale.set(120,120,120);
         animate();
 

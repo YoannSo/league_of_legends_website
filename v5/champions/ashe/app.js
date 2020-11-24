@@ -41,8 +41,8 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         ashe = gltf.scene.children[0];
-        ashe.position.set(0,0,0);
-        ashe.scale.set(1,1,1);
+        ashe.position.set(-30,30,0);
+        ashe.scale.set(1.1,1.1,1.1);
         animate();
 
     });

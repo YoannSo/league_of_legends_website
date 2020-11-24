@@ -41,7 +41,7 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         swain = gltf.scene.children[0];
-        swain.position.set(-40,0,0);
+        swain.position.set(-60,0,0);
         swain.scale.set(120,120,120);
         animate();
 

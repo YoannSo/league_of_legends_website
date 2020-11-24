@@ -41,8 +41,8 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         pantheon = gltf.scene.children[0];
-        pantheon.position.set(0,0,0);
-        pantheon.scale.set(10,10,10);
+        pantheon.position.set(-20,0,0);
+        pantheon.scale.set(8,8,8);
         animate();
 
     });

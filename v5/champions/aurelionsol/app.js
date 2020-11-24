@@ -41,8 +41,8 @@ function init() {
   loader.load("scene.gltf", function(gltf) {
     scene.add(gltf.scene);
     aurel = gltf.scene.children[0];
-    aurel.position.set(0,0,0);
-    aurel.scale.set(0.6,0.6,0.6);
+    aurel.position.set(-20,30,0);
+    aurel.scale.set(0.7,0.7,0.7);
     animate();
 
   });

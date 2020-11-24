@@ -41,7 +41,7 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         ahri = gltf.scene.children[0];
-        ahri.position.set(0,10,0);
+        ahri.position.set(-50,30,0);
         ahri.scale.set(1,1,1);
         animate();
 

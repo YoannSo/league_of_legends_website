@@ -41,7 +41,7 @@ function init() {
   loader.load("scene.gltf", function(gltf) {
     scene.add(gltf.scene);
     akali = gltf.scene.children[0];
-    akali.position.set(-30,20,0);
+    akali.position.set(-50,30,0);
     akali.scale.set(1,1,1);
     animate();
 

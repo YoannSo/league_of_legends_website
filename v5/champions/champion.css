@@ -69,10 +69,10 @@ b{
 }
 .rond{
 
-    width: 70px;
-    height: 70px;
-    clip-path:ellipse(50% 50%);
-    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    clip-path:ellipse(40% 40%);
+    margin-left: 60px;
 }
 table tr td{
     border-spacing: 1000px;

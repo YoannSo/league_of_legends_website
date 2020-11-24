@@ -41,7 +41,7 @@ function init() {
     loader.load("scene.gltf", function(gltf) {
         scene.add(gltf.scene);
         riven = gltf.scene.children[0];
-        riven.position.set(0,20,0);
+        riven.position.set(-40,10,0);
         riven.scale.set(1.1,1.1,1.1);
         animate();
 
