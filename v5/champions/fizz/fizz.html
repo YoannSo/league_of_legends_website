@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Fizz</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871409161076736/fizz.jpg); height: 1000px">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>.</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1"> FILOU DES MERS</p>
+        <p id="titrep2">FIZZ</p>
+    </h1>
+    <p id="story" style="background: rgba(50,50,50,0.9)">
+        <b>Fizz est un yordle amphibie qui vit dans les récifs qui entourent Bilgewater</b>. Il essaie souvent de récupérer et de rendre les tributs que lancent dans l'océan les capitaines superstitieux, mais <b>même le plus dessalé des marins n'est pas assez arrogant pour essayer de le tromper</b>. On raconte bien des histoires sur ceux qui ont sous-estimé son humeur changeante... Souvent confondu avec un <b>esprit océanique capricieux, il semble capable de commander aux créatures des profondeurs</b> et n'aime rien tant que confondre alliés comme ennemis.<h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px">Champion lié:</p>
+                <input type="button" class="rond" onclick="location.href='maps.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0105/ability_0105_P1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0105/ability_0105_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0105/ability_0105_W1.webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0105/ability_0105_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0105/ability_0105_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> COMBATTANT AGILE:</b> <br>
+                   Fizz peut traverser les unités et profite d'un montant fixe de réduction des dégâts contre toutes les sources de dégâts.</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">FRAPPE DE L'OURSIN: </b> <br>
+                    Fizz traverse sa cible, infligeant des dégâts magiques et des effets à l'impact.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> TRIDENT MARIN:</b> <br>
+                    Les attaques de Fizz font saigner ses ennemis, infligeant des dégâts magiques en plusieurs secondes. Fizz peut renforcer sa prochaine attaque pour infliger des dégâts supplémentaires, et renforcer ses attaques suivantes pour une courte durée.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> JOUEUR/FILOU:</b> <br>
+                    Fizz saute et retombe avec grâce sur sa lance, devenant impossible à cibler. Depuis cette position, Fizz peut soit frapper le sol, soit sauter à nouveau avant de retomber.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                       PÊCHE AU GROS: </b><br>
+Fizz lance un poisson qui s'accroche à tout champion qui le touche, ralentissant la cible. Après un court instant, un requin surgit du sol, projetant la cible dans les airs et repoussant les ennemis proches. Tous les ennemis touchés subissent des dégâts magiques et sont ralentis.
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871539742081054/Nimble_Fighter.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871552656211968/Urchin_Strike.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871561414049812/Seastone_Trident.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871568955146260/Playful.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780871576341184512/Chum_the_Waters.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bons paragraphes selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Ezreal</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780870104275353630/ezreal.jpg); ">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>.</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1"> EXPLORATEUR PRODIGUE</p>
+        <p id="titrep2">EZREAL</p>
+    </h1>
+    <p id="story" style="background: rgba(50,50,50,0.9)">
+        <b>Aventurier audacieux, doué sans le savoir pour les arts magiques, Ezreal</b> poursuit ses expéditions dans les catacombes oubliées, se bat avec d'antiques malédictions et contourne avec aisance les obstacles les plus impossibles. <b>Son courage et son panache sont sans borne, et il préfère improviser son salut dans les situations critiques</b>, avec pour armes principales sa vivacité d'esprit et son <b>gantelet mystique shurimien</b>, qu'il utilise pour déchaîner de <b>puissants projectiles arcaniques</b>. Une chose est sûre : quand Ezreal est dans les parages, les problèmes ne sont pas loin. Et ils sont partout. <b>Absolument partout</b>.<h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px">Champion lié:</p>
+                <input type="button" class="rond" onclick="location.href='maps.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_W1.webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> FORCE GRANDISSANT:</b> <br>
+                    Ezreal augmente sa vitesse d'attaque chaque fois qu'il touche un ennemi avec une compétence (cumulable jusqu'à 5 fois).</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">TIR MYSTIQUE: </b> <br>
+                    Ezreal tire un trait d'énergie blessant qui, s'il touche un ennemi, réduit légèrement tous les délais de récupération d'Ezreal.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> FLUX ESSENTIEL:</b> <br>
+                    Ezreal tire un orbe qui se colle au premier champion ou objectif touché. Si Ezreal frappe un ennemi affecté par un orbe, ce dernier explose et inflige des dégâts.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> TRANSFERT ARCANIQUE:</b> <br>
+                    Ezreal se téléporte dans une zone ciblée et tire un projectile autoguidé qui frappe l'ennemi le plus proche. Le tir vise en priorité les ennemis affectés par Flux essentiel.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                       ARC TÉRÉBRANT: </b><br>
+Ezreal se concentre avant de tirer une puissante vague d'énergie qui inflige d'importants dégâts à chaque unité traversée (les dégâts sont réduits pour les sbires et les monstres non épiques).
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780868634867531786/Rising_Spell_Force.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780868642392375336/Mystic_Shot.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780868649737125958/Essence_Flux.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780868656942546954/Arcane_Shift.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780868665649528872/Trueshot_Barrage.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bons paragraphes selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>
