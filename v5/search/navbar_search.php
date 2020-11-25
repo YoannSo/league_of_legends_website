@@ -14,7 +14,7 @@ session_start();
     <a class="nav-link" href="../index.php">Home <!-- <span class="sr-only">(current)</span> --></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../champions/champion.html">Champions</a>
+    <a class="nav-link" href="../champions/champion.php">Champions</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../items/items.html">Items</a>
@@ -40,7 +40,7 @@ session_start();
 
 </ul>
 
-<form class="form-inline navbar-form pull-right" action="search/search.php" method="POST" style="font-size:40px;padding:10px;margin-right: 50px;" >
+<form class="form-inline navbar-form pull-right" action="search.php" method="POST" style="font-size:40px;padding:10px;margin-right: 50px;" >
   <input class="form-control" type="text" placeholder="Search" name="search">
   <button class="btn btn-success-outline" type="submit" name="submit-search">Search</button>
 </form>

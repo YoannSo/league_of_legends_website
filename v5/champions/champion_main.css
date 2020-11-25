@@ -36,3 +36,28 @@
 	border: 3px solid black;
 	color: white;
 }
+
+#fav-result-positive{
+	font-size:30px;
+	color:white;
+	text-align: center;
+}
+
+#fav-result-negative{
+	font-size:30px;
+	color:red;
+	text-align: center;
+}
+
+#fav-button{
+	font-size: 18px;
+	color:black; 
+	width: 120px;
+	text-align: center;
+}
+
+#unfav-button{
+	color:black;
+	width: 60px;
+	text-align: center;
+}
