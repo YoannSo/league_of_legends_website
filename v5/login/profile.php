@@ -129,17 +129,25 @@ session_start();
 						<img src="https://cdn.discordapp.com/attachments/779434027081138186/780879681142259730/OrnnSquare.png">
 					</a>
 				</td>
-				<td>
-					<p>17</p>
+				<td id="bard">
+					<a href="../champions/bard/bard.html">
+						<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477035838275594/BardSquare.png">
+					</a>
 				</td>
-				<td>
-					<p>18</p>
+				<td id="blitzcrank">
+					<a href="../champions/blitzcrank/blitzcrank.html">
+						<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477043107135488/BlitzcrankSquare.png">
+					</a>
 				</td>
-				<td>
-					<p>19</p>
+				<td id="draven">
+					<a href="../champions/draven/draven.html">
+						<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477050459488256/DravenSquare.png">
+					</a>
 				</td>
-				<td>
-					<p>20</p>
+				<td id="karma">
+					<a href="../champions/karma/karma.html">
+						<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477057610907678/KarmaSquare.png">
+					</a>
 				</td>
 			</tr>
 		</table>
@@ -236,6 +244,26 @@ session_start();
 					if( in_array("ornn", $row) ){
 						echo "<script type='text/javascript'>
 						document.getElementById('ornn').style.display = 'inline-table';
+						</script>";
+					}
+					if( in_array("bard", $row) ){
+						echo "<script type='text/javascript'>
+						document.getElementById('bard').style.display = 'inline-table';
+						</script>";
+					}
+					if( in_array("blitzcrank", $row) ){
+						echo "<script type='text/javascript'>
+						document.getElementById('blitzcrank').style.display = 'inline-table';
+						</script>";
+					}
+					if( in_array("draven", $row) ){
+						echo "<script type='text/javascript'>
+						document.getElementById('draven').style.display = 'inline-table';
+						</script>";
+					}
+					if( in_array("karma", $row) ){
+						echo "<script type='text/javascript'>
+						document.getElementById('karma').style.display = 'inline-table';
 						</script>";
 					}
 
