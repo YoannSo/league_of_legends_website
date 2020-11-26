@@ -1,3 +1,6 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
 <?php
 include_once "../includes/dbh.php";
 session_start();

@@ -1,0 +1,193 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Draven</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474542844510218/draven.jpg); height:1080px;">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>.</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1">GLORIEUX EXÉCUTEUR  </p>
+        <p id="titrep2">DRAVEN</p>
+    </h1>
+    <p id="story" style="background: rgba(20,20,20,0.8)">
+        À <b>Noxus, de puissants guerriers, les « arénaires »</b>, s'affrontent dans des jeux mortels pour divertir le public. Le <b>sang y coule à foison et leurs forces y sont éprouvées</b>, mais aucun d'entre eux n'a jamais été aussi <b>célèbre que Draven</b>. Cet <b>ancien soldat découvrit que le public appréciait particulièrement son sens du spectacle</b>, sans parler de son habileté avec des <b>haches tournoyantes</b>. Épris de sa propre perfection, Draven terrasse tous ses adversaires pour s'assurer que son nom continue de résonner dans les arènes de l'empire.
+    </p>
+    <h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px; color:white">Champion lié:</p>
+                <input type="button" class="rond" style="background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/779710026520199188/AsheSquare.png)"onclick="location.href='../ashe/ashe.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_P1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_W1.webm"type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> LEAGUE OF DRAVEN:</b> <br>
+                    Draven obtient l'Adoration de ses fans quand il rattrape une Hache tournoyante, quand il tue un sbire ou un monstre et quand il détruit une tourelle. Quand il tue des champions ennemis, Draven gagne des PO supplémentaires en fonction de l'Adoration cumulée.</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">HACHE TOURNOYANTE: </b> <br>
+                    La prochaine attaque de Draven infligera des dégâts physiques supplémentaires. Cette hache ricochera sur la cible et sera propulsée dans les airs. Si Draven l'attrape, il prépare automatiquement une autre Hache tournoyante. Draven peut avoir deux Haches tournoyantes simultanément.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> PULSION SANGUINAIRE:</b> <br>
+                  Draven gagne des bonus en vitesse de déplacement et en vitesse d'attaque. Le bonus en vitesse de déplacement diminue rapidement sur la durée. Attraper une Hache tournoyante met fin au délai de récupération de Pulsion sanguinaire.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> DIVISION:</b> <br>
+                   Draven lance ses haches, infligeant des dégâts physiques aux cibles touchées et les repoussant sur le côté. Les cibles touchées sont ralenties.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                        VOLÉE MORTELLE: </b><br>
+                    Draven lance deux énormes haches pour infliger des dégâts physiques aux unités touchées. Volée mortelle fait demi-tour et revient vers Draven après avoir frappé un champion ennemi. Draven peut aussi réactiver cette compétence quand les haches sont en vol pour les faire revenir plus tôt. La compétence inflige moins de dégâts par unité touchée et est réinitialisée quand les haches font demi-tour.</p>
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474549190885387/League_of_Draven.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474556149366784/Spinning_Axe.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474563383885864/Blood_Rush.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474571182145546/Stand_Aside.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781474579695796234/Whirling_Death.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bonnes videos selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>

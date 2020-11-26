@@ -1,0 +1,193 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Bard</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466499646881802/bard.jpg); height:1080px;">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>text to fill white</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1">GARDIEN ERRANT  </p>
+        <p id="titrep2">BARD</p>
+    </h1>
+    <p id="story" style="background: rgba(20,20,20,0.8)">
+        <b>Voyageur d'au-delà des étoiles, Bard est un messager</b> des bons augures qui combat pour maintenir l'équilibre dont la vie a besoin pour prospérer dans l'indifférence du chaos. <b>Dans tout Runeterra, sa mystérieuse nature inspire des chants</b> qui ne sont d'accord que sur un point : le vagabond cosmique est attiré par les reliques dotées d'un grand pouvoir magique. <b>Accompagné par un chœur joyeux de Meeps</b>, des esprits qui lui sont dévoués, il n'a d'actions que bénéfiques, même s'il a sa propre manière, un peu étrange, de servir le bien.
+    </p>
+    <h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px; color:white">Champion lié:</p>
+                <input type="button" class="rond" style="background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/781477043107135488/BlitzcrankSquare.png)"onclick="location.href='../blitzcrank/blitzcrank.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_P1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_W1.webm"type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> INSTINCT DU VOYAGEUR:</b> <br>
+                    Meeps : Bard attire des esprits inférieurs qui soutiennent ses attaques de base en infligeant des dégâts magiques supplémentaires. Quand Bard a collecté suffisamment de carillons, ses Meeps infligeront en plus des dégâts dans une zone et ralentiront les ennemis touchés. Carillons : d'antiques carillons que peut collecter Bard apparaissent aléatoirement. Ils lui octroient de l'expérience, du mana max et un bonus en vitesse de déplacement qui se cumule hors des combats.</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">LIEN COSMIQUE: </b> <br>
+                    Bard tire un projectile qui ralentit le premier ennemi touché et qui continue sur sa lancée. S'il touche un mur, il étourdit la cible initiale ; s'il touche un deuxième ennemi, il étourdit les deux cibles.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> DON DU GARDIEN:</b> <br>
+                   Révèle un sanctuaire de soin qui gagne en puissance pendant quelques secondes. Il disparaît après avoir soigné et accéléré le premier allié qui le touche.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> ROUTE MAGIQUE:</b> <br>
+                    Bard ouvre un portail dans un élément du décor proche. Les alliés et les ennemis peuvent emprunter la route à sens unique ainsi créée en passant par le portail.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                        DESTIN TEMPÉRÉ: </b><br>
+                    Bard envoie de l'énergie spirituelle dans une zone, ce qui met brièvement en stase toutes les unités et toutes les tourelles.</p>
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466505996664852/Traveler27s_Call.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466513940152340/Cosmic_Binding.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466522719354880/Caretaker27s_Shrine.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466532302815252/Magical_Journey.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/781466541106921482/Tempered_Fate.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bonnes videos selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>

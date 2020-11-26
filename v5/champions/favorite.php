@@ -1,3 +1,7 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
+
 <?php
 session_start();
 include_once '../includes/dbh.php';
@@ -258,6 +262,70 @@ if(isset($_POST["ornn"])){
 	}
 	else{ #sinon on l'insert dans la base de donnee
 		$sql = "INSERT INTO favorites(favoritesUsersId, favoritesFavorited) VALUES ('$username', 'ornn');";
+		mysqli_query($conn, $sql);
+		header("location: champion.php?error=none");
+	}
+}
+
+if(isset($_POST["bard"])){
+	$sql1 = "SELECT favoritesFavorited FROM favorites where favoritesUsersId = '$username' and favoritesFavorited = 'bard' ";
+	$res = mysqli_query($conn, $sql1);
+	$resCheck = mysqli_num_rows($res);
+	if($resCheck > 0){ #si on a un resultat alors le champion est deja dans la base de donne
+		$sql2 = "DELETE FROM favorites WHERE favoritesUsersId = '$username' and favoritesFavorited = 'bard'";
+		mysqli_query($conn, $sql2);
+		header("location: champion.php?error=remove");
+	}
+	else{ #sinon on l'insert dans la base de donnee
+		$sql = "INSERT INTO favorites(favoritesUsersId, favoritesFavorited) VALUES ('$username', 'bard');";
+		mysqli_query($conn, $sql);
+		header("location: champion.php?error=none");
+	}
+}
+
+if(isset($_POST["blitzcrank"])){
+	$sql1 = "SELECT favoritesFavorited FROM favorites where favoritesUsersId = '$username' and favoritesFavorited = 'blitzcrank' ";
+	$res = mysqli_query($conn, $sql1);
+	$resCheck = mysqli_num_rows($res);
+	if($resCheck > 0){ #si on a un resultat alors le champion est deja dans la base de donne
+		$sql2 = "DELETE FROM favorites WHERE favoritesUsersId = '$username' and favoritesFavorited = 'blitzcrank'";
+		mysqli_query($conn, $sql2);
+		header("location: champion.php?error=remove");
+	}
+	else{ #sinon on l'insert dans la base de donnee
+		$sql = "INSERT INTO favorites(favoritesUsersId, favoritesFavorited) VALUES ('$username', 'blitzcrank');";
+		mysqli_query($conn, $sql);
+		header("location: champion.php?error=none");
+	}
+}
+
+if(isset($_POST["draven"])){
+	$sql1 = "SELECT favoritesFavorited FROM favorites where favoritesUsersId = '$username' and favoritesFavorited = 'draven' ";
+	$res = mysqli_query($conn, $sql1);
+	$resCheck = mysqli_num_rows($res);
+	if($resCheck > 0){ #si on a un resultat alors le champion est deja dans la base de donne
+		$sql2 = "DELETE FROM favorites WHERE favoritesUsersId = '$username' and favoritesFavorited = 'draven'";
+		mysqli_query($conn, $sql2);
+		header("location: champion.php?error=remove");
+	}
+	else{ #sinon on l'insert dans la base de donnee
+		$sql = "INSERT INTO favorites(favoritesUsersId, favoritesFavorited) VALUES ('$username', 'draven');";
+		mysqli_query($conn, $sql);
+		header("location: champion.php?error=none");
+	}
+}
+
+if(isset($_POST["karma"])){
+	$sql1 = "SELECT favoritesFavorited FROM favorites where favoritesUsersId = '$username' and favoritesFavorited = 'karma' ";
+	$res = mysqli_query($conn, $sql1);
+	$resCheck = mysqli_num_rows($res);
+	if($resCheck > 0){ #si on a un resultat alors le champion est deja dans la base de donne
+		$sql2 = "DELETE FROM favorites WHERE favoritesUsersId = '$username' and favoritesFavorited = 'karma'";
+		mysqli_query($conn, $sql2);
+		header("location: champion.php?error=remove");
+	}
+	else{ #sinon on l'insert dans la base de donnee
+		$sql = "INSERT INTO favorites(favoritesUsersId, favoritesFavorited) VALUES ('$username', 'karma');";
 		mysqli_query($conn, $sql);
 		header("location: champion.php?error=none");
 	}

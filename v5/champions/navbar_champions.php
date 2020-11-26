@@ -1,3 +1,6 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
 <?php
 session_start();
 ?>

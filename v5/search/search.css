@@ -1,3 +1,6 @@
+/*AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3*/
+
 .search{
 	font-family: "BeaufortforLOL-Heavy";
 	font-size:40px;
@@ -43,14 +46,14 @@
 }
 
 .search-results{
-	background-color: #e9e2e2;
+	background-color: rgba(20,20,20,0.3);
 	padding: 5px;
 	font-size: 20px;
 }
 
 #numberofresults{
 	text-align: center;
-	background-color:  #6e776f;
+	background-color:  rgba(10,10,10,0.6);
 	padding:5px;
 	font-size:25px;
 	font-family: "BeaufortforLOL-Heavy";

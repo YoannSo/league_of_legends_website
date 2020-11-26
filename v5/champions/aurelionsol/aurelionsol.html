@@ -1,3 +1,6 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,21 +23,21 @@
 
     <script>
       $(function(){
-         $("#mynavbar").load("../navbar_champions.php");
-     });
- </script>
- <!--end of Navigation bar-->
+       $("#mynavbar").load("../navbar_champions.php");
+   });
+</script>
+<!--end of Navigation bar-->
 
- <script src="../../includes/three.min.js"></script>
- <script src="../../includes/GLTFLoader.js"></script>
- <script type="module" src="app.js"></script>
- <p>text to fill white</p>
- <form>
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>text to fill white</p>
+<form>
     <h1 id="titre">
         <p id="titrep1"> Forgeur d'Etoiles  </p>
         <p id="titrep2">AURELION SOL</p>
     </h1>
-    <p id="story">
+    <p id="story" style="background: rgba(20,20,20,0.8)">
         Autrefois, <b>Aurelion Sol</b> façonnait des merveilles célestes dont il parsemait le <b>vide infini du cosmos</b>. À présent, il est forcé d'utiliser ses pouvoirs extraordinaires pour le compte d'un empire de l'espace qui s'est joué de lui et l'a réduit en esclavage. Prêt à tout pour redevenir le <b>forgeron stellaire</b> qu'il était, Aurelion Sol n'hésitera pas à <b>arracher les étoiles</b> de leur ciel nocturne si c'est là le prix à payer pour <b>regagner sa liberté</b>.
     </p>
     <h1 id="competence" >
@@ -61,62 +64,68 @@
                             <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
                                 <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_E1.webm" type="video/webm">
                                 </video>
+                                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_R1.webm" type="video/webm">
+                                    </video>
 
-                                <script>
-                                    let vid2=document.getElementById("vid2");
-                                    let vid3=document.getElementById("vid3");
-                                    let vid4=document.getElementById("vid4");
-                                    vid2.style.display="none";
-                                    vid3.style.display="none";
-                                    vid4.style.display="none";
-                                </script>
-                            </td>
-                            <td>
-                                <p id="spell1" class="spell1" name="spell">
-                                    <i style="color:grey;"> PASSIVE </i><br>
-                                    <b style="color: cornflowerblue" style="font-size: x-large"> CENTRE DE L'UNIVERS:</b> <br>
-                                    Trois étoiles orbitent autour d'Aurelion Sol, infligeant des dégâts magiques aux ennemis qu'elles touchent.
-                                </p>
-                                <p id="spell2" name="spell" class="spell1" style="display: none">
-                                    <b style="color: cornflowerblue" style="font-size: x-large"> STELLOGENÈSE: </b> <br>
-                                    Aurelion Sol crée un disque en expansion qui explose quand il s'éloigne trop d'Aurelion Sol, étourdissant et blessant les ennemis.
-                                </p>
-                                <p id="spell3" name="spell"  class="spell1" style="display: none">
-                                    <b style="color:cornflowerblue" style="font-size: x-large">EXPANSION CÉLESTE
-                                    :</b> <br>
-                                    Aurelion Sol éloigne ses étoiles, augmentant leurs dégâts et leur vitesse.
-                                </p>
-                                <p id="spell4" name="spell" class="spell1" style="display: none">
-                                    <b style="color: cornflowerblue" style="font-size: x-large"> COMÈTE LÉGENDAIRE
-:</b> <br>
-                                   Aurelion Sol s'envole et parcourt une longue distance.
-                                </p>
-                                <p id="spell5" name="spell" class="spell1" style="display: none">
-                                  <b style="color: cornflowerblue" style="font-size: x-large">  CRI DE LUMIÈRE: </b><br>
-                                  Aurelion Sol tire une vague de feu stellaire pur, blessant et ralentissant tous les ennemis pris dans la vague et repoussant les ennemis proches.
-                              </p>
-                          </td>
+                                    <script>
+                                        let vid2=document.getElementById("vid2");
+                                        let vid3=document.getElementById("vid3");
+                                        let vid4=document.getElementById("vid4");
+                                        let vid5=document.getElementById("vid5")
+                                        vid2.style.display="none";
+                                        vid3.style.display="none";
+                                        vid4.style.display="none";
+                                        vid5.style.display="none";
+                                    </script>
+                                </td>
+                                <td>
+                                    <p id="spell1" class="spell1" name="spell">
+                                        <i style="color:grey;"> PASSIVE </i><br>
+                                        <b style="color: cornflowerblue" style="font-size: x-large"> CENTRE DE L'UNIVERS:</b> <br>
+                                        Trois étoiles orbitent autour d'Aurelion Sol, infligeant des dégâts magiques aux ennemis qu'elles touchent.
+                                    </p>
+                                    <p id="spell2" name="spell" class="spell1" style="display: none">
+                                        <b style="color: cornflowerblue" style="font-size: x-large"> STELLOGENÈSE: </b> <br>
+                                        Aurelion Sol crée un disque en expansion qui explose quand il s'éloigne trop d'Aurelion Sol, étourdissant et blessant les ennemis.
+                                    </p>
+                                    <p id="spell3" name="spell"  class="spell1" style="display: none">
+                                        <b style="color:cornflowerblue" style="font-size: x-large">EXPANSION CÉLESTE
+                                        :</b> <br>
+                                        Aurelion Sol éloigne ses étoiles, augmentant leurs dégâts et leur vitesse.
+                                    </p>
+                                    <p id="spell4" name="spell" class="spell1" style="display: none">
+                                        <b style="color: cornflowerblue" style="font-size: x-large"> COMÈTE LÉGENDAIRE
+                                        :</b> <br>
+                                        Aurelion Sol s'envole et parcourt une longue distance.
+                                    </p>
+                                    <p id="spell5" name="spell" class="spell1" style="display: none">
+                                      <b style="color: cornflowerblue" style="font-size: x-large">  CRI DE LUMIÈRE: </b><br>
+                                      Aurelion Sol tire une vague de feu stellaire pur, blessant et ralentissant tous les ennemis pris dans la vague et repoussant les ennemis proches.
+                                  </p>
+                              </td>
 
-                      </tr>
-                      <tr>
+                          </tr>
+                          <tr>
 
 
-                        <td style="text-align:left;" colspan="2">
-                            <input type="button" class="spellimage1" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446118295142480/Center_of_the_Universe.png');" onclick="afficher(1)">
-                            <input type="button" class="spellimage2" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446123500011540/Starsurge_2.png');"onclick="afficher(2)">
-                            <input type="button" class="spellimage3" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446116298915870/Celestial_Expansion.png');"onclick="afficher(3)">
-                            <input type="button" class="spellimage4" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446120803074058/Comet_of_Legend.png');"onclick="afficher(4)">
-                            <input type="button" class="spellimage5" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446124284608532/Voice_of_Light.png');"onclick="afficher(5)">
-                            <td>
-                            </tr>
-                        </table>
-                        <script>
+                            <td style="text-align:left;" colspan="2">
+                                <input type="button" class="spellimage1" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446118295142480/Center_of_the_Universe.png');" onclick="afficher(1)">
+                                <input type="button" class="spellimage2" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446123500011540/Starsurge_2.png');"onclick="afficher(2)">
+                                <input type="button" class="spellimage3" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446116298915870/Celestial_Expansion.png');"onclick="afficher(3)">
+                                <input type="button" class="spellimage4" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446120803074058/Comet_of_Legend.png');"onclick="afficher(4)">
+                                <input type="button" class="spellimage5" style="background-image:url('https://cdn.discordapp.com/attachments/779434027081138186/779446124284608532/Voice_of_Light.png');"onclick="afficher(5)">
+                                <td>
+                                </tr>
+                            </table>
+                            <script>
 
-            function afficher(val){ //cette fonction va permettre d'afficher les bons paragraphes selon la valeur de "val"
+            function afficher(val){ //cette fonction va permettre d'afficher les bonnes videos selon la valeur de "val"
             let vid1=document.getElementById("vid1");
             let vid2=document.getElementById("vid2");
             let vid3=document.getElementById("vid3");
             let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
             if (val==1){
                 spell1.style.display="block";
                 spell2.style.display="none";
@@ -127,6 +136,7 @@
                 vid2.style.display="none";
                 vid3.style.display="none";
                 vid4.style.display="none";
+                vid5.style.display="none";
 
             }
             if (val==2){
@@ -139,6 +149,7 @@
                 vid2.style.display="block";
                 vid3.style.display="none";
                 vid4.style.display="none";
+                vid5.style.display="none";
 
             }
             if (val==3){
@@ -151,6 +162,7 @@
                 vid2.style.display="none";
                 vid3.style.display="block";
                 vid4.style.display="none";
+                vid5.style.display="none";
 
             }
             if (val==4){
@@ -163,6 +175,7 @@
                 vid2.style.display="none";
                 vid3.style.display="none";
                 vid4.style.display="block";
+                vid5.style.display="none";
 
             }
             if (val==5){
@@ -171,6 +184,11 @@
                 spell3.style.display="none";
                 spell4.style.display="none";
                 spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
 
             }
         }

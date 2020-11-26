@@ -1,3 +1,6 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,16 +165,36 @@
 						</form>
 					</td>
 					<td>
-						<p>17</p>
+						<a href="bard/bard.html">
+							<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477035838275594/BardSquare.png">
+						</a>
+						<form action="favorite.php" method="POST">
+							<button type="submit" name="bard" id="fav-button">Favorite</button>
+						</form>
 					</td>
 					<td>
-						<p>18</p>
+						<a href="blitzcrank/blitzcrank.html">
+							<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477043107135488/BlitzcrankSquare.png">
+						</a>
+						<form action="favorite.php" method="POST">
+							<button type="submit" name="blitzcrank" id="fav-button">Favorite</button>
+						</form>
 					</td>
 					<td>
-						<p>19</p>
+						<a href="draven/draven.html">
+							<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477050459488256/DravenSquare.png">
+						</a>
+						<form action="favorite.php" method="POST">
+							<button type="submit" name="draven" id="fav-button">Favorite</button>
+						</form>
 					</td>
 					<td>
-						<p>20</p>
+						<a href="karma/karma.html">
+							<img src="https://cdn.discordapp.com/attachments/779434027081138186/781477057610907678/KarmaSquare.png">
+						</a>
+						<form action="favorite.php" method="POST">
+							<button type="submit" name="karma" id="fav-button">Favorite</button>
+						</form>
 					</td>
 				</tr>
 			</table>
