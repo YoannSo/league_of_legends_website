@@ -1,3 +1,6 @@
+// AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+// PROJET: Web L3
+
 const onglets = document.querySelectorAll('.onglets');
 const contenu = document.querySelectorAll('.contenu');
 let index = 0;
