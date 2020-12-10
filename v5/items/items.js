@@ -13,7 +13,7 @@ onglets.forEach(onglet => {
         }
 
         index = onglet.getAttribute('data-anim');
-        console.log(index);
+        
 
         for(i = 0; i < onglets.length; i++) {
 
