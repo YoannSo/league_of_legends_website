@@ -115,13 +115,7 @@ span i{
 .icon:hover > span{
     opacity: 1;
 }
-/* Tooltip container */
 
-/*.tooltip {*/
-/*    position: relative;*/
-/*    left: 10%;*/
-/*    top:10%;*/
-/*}*/
 
 .item .tooltiptext {
     visibility: hidden;
