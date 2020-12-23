@@ -1,0 +1,191 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Evelynn</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780865914383630416/eve.jpg); height: 1080px;">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>.</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1"> DÉMON SADIQUE </p>
+        <p id="titrep2">EVELYNN</p>
+    </h1>
+    <p id="story" style="background: rgba(20,20,20,0.8)">
+        Dans les <b>sombres failles de Runeterra, le démon nommé Evelynn cherche sa prochaine victime</b>. Elle attire sa proie en se faisant passer pour une <b>femme voluptueuse, et dès que sa cible succombe à ses charmes</b>, Evelynn révèle sa véritable nature. Elle <b>inflige alors à sa victime des tourments indicibles</b> et se repaît de sa douleur. Pour un <b>démon, ce ne sont que des plaisirs innocents</b>. Aux yeux du reste de Runeterra, ce sont des contes terrifiants, qui rappellent les dangers du <b>désir et de la luxure<b>.<h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px; color:white">Champion lié:</p>
+                <input type="button" class="rond" style="background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/779710024984690708/AkaliSquare.png)" onclick="location.href='../akali/akali.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_P1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_W1.webm"type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> OMBRE DÉMONIAQUE:</b> <br>
+                    En dehors des combats, Evelynn se plonge dans une Ombre démoniaque. Ombre démoniaque soigne Evelynn quand ses PV sont bas et lui octroie un camouflage à partir du niveau 6.</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> PIQUES DE HAINE: </b> <br>
+                    Evelynn frappe avec son cirre et inflige des dégâts à la première unité touchée. Elle peut ensuite tirer une ligne de piques vers les ennemis proches, jusqu'à 3 fois.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> SÉDUCTION:</b> <br>
+                    Evelynn maudit une cible, ce qui permet à sa prochaine attaque ou à son prochain sort de charmer sa cible et de réduire sa résistance magique.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> COUP DE FOUET:</b> <br>
+                    Evelynn donne un coup de fouet à sa cible avec son cirre et lui inflige des dégâts. Elle augmente ensuite sa vitesse de déplacement pendant un court instant.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                       FAISEUSE DE VEUVES: </b><br>
+Evelynn devient brièvement impossible à cibler et ravage la zone devant elle avant de se téléporter loin en arrière.
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780866034269159444/Demon_Shade.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780866041730957312/Hate_Spike_2.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780866049481506838/Allure.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780866059170349096/Whiplash.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780866065722638406/Last_Caress.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bonnes videos selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,507 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5762,
+      "max": [
+        141.86868286132812,
+        169.42549133300781,
+        89.604866027832031
+      ],
+      "min": [
+        -117.35511779785156,
+        -0.39791902899742126,
+        -102.47908020019531
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 69144,
+      "componentType": 5126,
+      "count": 5762,
+      "max": [
+        0.99972420930862427,
+        0.99995237588882446,
+        1
+      ],
+      "min": [
+        -0.99972409009933472,
+        -0.99999964237213135,
+        -0.99993163347244263
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5762,
+      "max": [
+        0.99553298950195312,
+        0.99757301807403564
+      ],
+      "min": [
+        0.0069220000877976418,
+        0.0059079998172819614
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 27069,
+      "max": [
+        5761
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 138288,
+      "componentType": 5126,
+      "count": 62,
+      "max": [
+        14.75167179107666,
+        156.24629211425781,
+        29.609527587890625
+      ],
+      "min": [
+        -7.6581535339355469,
+        142.82783508300781,
+        13.602507591247559
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 139032,
+      "componentType": 5126,
+      "count": 62,
+      "max": [
+        0.90204942226409912,
+        0.98581409454345703,
+        0.9999271035194397
+      ],
+      "min": [
+        -0.90204912424087524,
+        -0.99708813428878784,
+        -0.25278687477111816
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 46096,
+      "componentType": 5126,
+      "count": 62,
+      "max": [
+        0.72749799489974976,
+        0.21443000435829163
+      ],
+      "min": [
+        0.67987501621246338,
+        0.15951700508594513
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 108276,
+      "componentType": 5125,
+      "count": 276,
+      "max": [
+        61
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 139776,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        102.70563507080078,
+        21.267011642456055,
+        102.10015106201172
+      ],
+      "min": [
+        -102.70565795898438,
+        0.22548800706863403,
+        -102.70568084716797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 144216,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        1,
+        1,
+        0.98754310607910156
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.99311500787734985
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 46592,
+      "componentType": 5126,
+      "count": 370,
+      "max": [
+        0.97578400373458862,
+        0.9790949821472168
+      ],
+      "min": [
+        0.014890000224113464,
+        0.022321000695228577
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 109380,
+      "componentType": 5125,
+      "count": 828,
+      "max": [
+        369
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Yoru Skins (https://sketchfab.com/IMChangkyun)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/project-evelynn-league-of-legends-custom-skin-3c3faa849f3b493db06560250ded30b9",
+      "title": "Project Evelynn [League of Legends custom skin]"
+    },
+    "generator": "Sketchfab-9.41.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 112692,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49552,
+      "byteOffset": 112692,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 148656,
+      "byteOffset": 162244,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 310900,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Evelynn_baseColor.png"
+    },
+    {
+      "uri": "textures/Podium_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Evelynn",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.3785897470040166,
+        0,
+        0.30009903145976735
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Glasses",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.43552839090964807
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Podium",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Posed_Mesh_Evelynn_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Posed_Mesh_Glasses_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Podium_Podium_pCylinder3_Podium_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        7.0936497650109231e-05,
+        0,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "2d0f8be9f88e4a2b8525ec39a4b16be4.fbx"
+    },
+    {
+      "children": [
+        4,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        1.0202999114990234,
+        0,
+        0,
+        0,
+        0,
+        1.0202999114990234,
+        0,
+        0,
+        0,
+        0,
+        1.0202999114990234,
+        0,
+        -9.0979804992675781,
+        16.167892456054688,
+        9.5222005844116211,
+        1
+      ],
+      "name": "Posed_Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Posed_Mesh_Evelynn_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Posed_Mesh_Glasses_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Podium_Podium_pCylinder3"
+    },
+    {
+      "mesh": 2,
+      "name": "Podium_Podium_pCylinder3_Podium_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+

@@ -1,0 +1,1221 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10235,
+      "max": [
+        43.247356414794922,
+        184.681396484375,
+        57.63116455078125
+      ],
+      "min": [
+        -73.967094421386719,
+        -3.5006608963012695,
+        -97.912940979003906
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 122820,
+      "componentType": 5126,
+      "count": 10235,
+      "max": [
+        0.99997556209564209,
+        0.99979269504547119,
+        0.99989902973175049
+      ],
+      "min": [
+        -0.9996030330657959,
+        -0.99989628791809082,
+        -0.99980795383453369
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10235,
+      "max": [
+        0.99595701694488525,
+        0.99941098690032959
+      ],
+      "min": [
+        0.0034179999493062496,
+        0.0026249999646097422
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 34653,
+      "max": [
+        10234
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 245640,
+      "componentType": 5126,
+      "count": 817,
+      "max": [
+        84.390113830566406,
+        103.43318176269531,
+        -10.083919525146484
+      ],
+      "min": [
+        -83.881591796875,
+        14.144813537597656,
+        -64.42962646484375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 255444,
+      "componentType": 5126,
+      "count": 817,
+      "max": [
+        0.98943287134170532,
+        0.99964624643325806,
+        0.99970090389251709
+      ],
+      "min": [
+        -0.99677193164825439,
+        -0.99962860345840454,
+        -0.99802541732788086
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 81880,
+      "componentType": 5126,
+      "count": 817,
+      "max": [
+        0.9974675178527832,
+        0.99317598342895508
+      ],
+      "min": [
+        0.0086298370733857155,
+        0.14614641666412354
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 138612,
+      "componentType": 5125,
+      "count": 3726,
+      "max": [
+        816
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 265248,
+      "componentType": 5126,
+      "count": 142,
+      "max": [
+        38.582569122314453,
+        -17.711580276489258,
+        -22.892910003662109
+      ],
+      "min": [
+        -26.384140014648438,
+        -97.951637268066406,
+        -52.692501068115234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 266952,
+      "componentType": 5126,
+      "count": 142,
+      "max": [
+        0.98748528957366943,
+        0.98098582029342651,
+        0.99348390102386475
+      ],
+      "min": [
+        -0.96642869710922241,
+        -0.95183300971984863,
+        -0.97437459230422974
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 88416,
+      "componentType": 5126,
+      "count": 142,
+      "max": [
+        0.56075519323348999,
+        0.99126511812210083
+      ],
+      "min": [
+        0.015194140374660492,
+        0.017073750495910645
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 89552,
+      "componentType": 5126,
+      "count": 142,
+      "max": [
+        0.56075519323348999,
+        0.99126511812210083
+      ],
+      "min": [
+        0.015194140374660492,
+        0.017073750495910645
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 153516,
+      "componentType": 5125,
+      "count": 720,
+      "max": [
+        141
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 268656,
+      "componentType": 5126,
+      "count": 475,
+      "max": [
+        -6.286773681640625,
+        263.4605712890625,
+        -110.91458129882812
+      ],
+      "min": [
+        -99.317291259765625,
+        49.318313598632812,
+        -126.02212524414062
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 274356,
+      "componentType": 5126,
+      "count": 475,
+      "max": [
+        0.99970561265945435,
+        0.99844104051589966,
+        0.99999982118606567
+      ],
+      "min": [
+        -0.99976903200149536,
+        -0.99893307685852051,
+        -0.99999982118606567
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 90688,
+      "componentType": 5126,
+      "count": 475,
+      "max": [
+        0.99626302719116211,
+        0.99350899457931519
+      ],
+      "min": [
+        0.52086097002029419,
+        0.0087339878082275391
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 156396,
+      "componentType": 5125,
+      "count": 2448,
+      "max": [
+        474
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 280056,
+      "componentType": 5126,
+      "count": 1605,
+      "max": [
+        136.40939331054688,
+        88.289405822753906,
+        171.83724975585938
+      ],
+      "min": [
+        -98.783203125,
+        -33.28216552734375,
+        -41.973285675048828
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 299316,
+      "componentType": 5126,
+      "count": 1605,
+      "max": [
+        0.99610912799835205,
+        0.99945759773254395,
+        0.99984389543533325
+      ],
+      "min": [
+        -0.99784350395202637,
+        -0.99500459432601929,
+        -0.99954372644424438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 94488,
+      "componentType": 5126,
+      "count": 1605,
+      "max": [
+        0.99159997701644897,
+        0.98960000276565552
+      ],
+      "min": [
+        0.0090999994426965714,
+        0.008899986743927002
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 107328,
+      "componentType": 5126,
+      "count": 1605,
+      "max": [
+        0.99159997701644897,
+        0.98960000276565552
+      ],
+      "min": [
+        0.0090999994426965714,
+        0.008899986743927002
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 166188,
+      "componentType": 5125,
+      "count": 7089,
+      "max": [
+        1604
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 318576,
+      "componentType": 5126,
+      "count": 397,
+      "max": [
+        77.43017578125,
+        118.41777801513672,
+        -16.427986145019531
+      ],
+      "min": [
+        -89.19287109375,
+        11.883285522460938,
+        -102.13032531738281
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 323340,
+      "componentType": 5126,
+      "count": 397,
+      "max": [
+        0.99975675344467163,
+        0.99387103319168091,
+        0.99829310178756714
+      ],
+      "min": [
+        -0.99973499774932861,
+        -0.99552804231643677,
+        -0.99775779247283936
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 120168,
+      "componentType": 5126,
+      "count": 397,
+      "max": [
+        0.62273800373077393,
+        0.95183402299880981
+      ],
+      "min": [
+        0.27583998441696167,
+        0.0088289976119995117
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 194544,
+      "componentType": 5125,
+      "count": 1518,
+      "max": [
+        396
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 328104,
+      "componentType": 5126,
+      "count": 1122,
+      "max": [
+        22.385795593261719,
+        97.392524719238281,
+        -30.7965087890625
+      ],
+      "min": [
+        -32.352958679199219,
+        14.309701919555664,
+        -51.148250579833984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 341568,
+      "componentType": 5126,
+      "count": 1122,
+      "max": [
+        0.99982285499572754,
+        0.98981714248657227,
+        0.99814796447753906
+      ],
+      "min": [
+        -0.99917721748352051,
+        -0.99875932931900024,
+        -0.99992799758911133
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 123344,
+      "componentType": 5126,
+      "count": 1122,
+      "max": [
+        0.98999989032745361,
+        0.99029999971389771
+      ],
+      "min": [
+        0.014100000262260437,
+        0.024699989706277847
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 132320,
+      "componentType": 5126,
+      "count": 1122,
+      "max": [
+        0.98999989032745361,
+        0.99029999971389771
+      ],
+      "min": [
+        0.014100000262260437,
+        0.024699989706277847
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 200616,
+      "componentType": 5125,
+      "count": 5028,
+      "max": [
+        1121
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 355032,
+      "componentType": 5126,
+      "count": 210,
+      "max": [
+        102.70563507080078,
+        21.267011642456055,
+        101.51913452148438
+      ],
+      "min": [
+        -102.70565795898438,
+        0.22548800706863403,
+        -102.70568084716797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 357552,
+      "componentType": 5126,
+      "count": 210,
+      "max": [
+        0.98754298686981201,
+        1,
+        0.98754310607910156
+      ],
+      "min": [
+        -0.98754376173019409,
+        -1,
+        -0.99311500787734985
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 141296,
+      "componentType": 5126,
+      "count": 210,
+      "max": [
+        1.0004589557647705,
+        0.93951398134231567
+      ],
+      "min": [
+        -0.00015100000018719584,
+        0.0042539997957646847
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 220728,
+      "componentType": 5125,
+      "count": 480,
+      "max": [
+        209
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Yoru Skins (https://sketchfab.com/IMChangkyun)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/skintober-2020-day-3-gothic-ahri-70916def530642d2b6745bb69965582c",
+      "title": "Skintober 2020 Day 3: Gothic Ahri"
+    },
+    "generator": "Sketchfab-9.41.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 222648,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 142976,
+      "byteOffset": 222648,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360072,
+      "byteOffset": 365624,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 725696,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Ahri_baseColor.png"
+    },
+    {
+      "uri": "textures/Pumpkinhead_Fiddlesticks_baseColor.png"
+    },
+    {
+      "uri": "textures/Zombie_Brand_baseColor.png"
+    },
+    {
+      "uri": "textures/Yorick_baseColor.png"
+    },
+    {
+      "uri": "textures/Haunted_Zyra_Plants_baseColor.png"
+    },
+    {
+      "uri": "textures/Haunted_Maokai_baseColor.png"
+    },
+    {
+      "uri": "textures/Haunted_Zyra_Vines_baseColor.png"
+    },
+    {
+      "uri": "textures/Podium_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Ahri",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Pumpkinhead_Fiddlesticks",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Zombie_Brand",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Yorick",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Haunted_Zyra_Plants",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Haunted_Maokai",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Haunted_Zyra_Vines",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 6,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Podium",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 7,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "posed_Mesh_Ahri_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "transformfiddlesticks_skin04_fiddlesticksrework_Pumpkinhead_Fiddlesticks_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "stone_Mesh_Zombie_Brand_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11
+          },
+          "indices": 12,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "transformyorick_Yorick_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 14,
+            "POSITION": 13,
+            "TEXCOORD_0": 15
+          },
+          "indices": 16,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "zyragrave_Mesh_Haunted_Zyra_Plants_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20
+          },
+          "indices": 21,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "transformmaokai_gravedigger2_Haunted_Maokai_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 23,
+            "POSITION": 22,
+            "TEXCOORD_0": 24
+          },
+          "indices": 25,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "zyra_Mesh2_Haunted_Zyra_Vines_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 27,
+            "POSITION": 26,
+            "TEXCOORD_0": 28,
+            "TEXCOORD_1": 29
+          },
+          "indices": 30,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Podium_only_Podium_only_Podium_Podium_pCylinder3_Podium_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 32,
+            "POSITION": 31,
+            "TEXCOORD_0": 33
+          },
+          "indices": 34,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "1ff4a84aa7374b4d80cf7694278a0b14.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0803752106148898,
+        0,
+        0.624138921971083,
+        0,
+        0,
+        1.24770188331604,
+        0,
+        0,
+        -0.624138921971083,
+        0,
+        1.0803752106148898,
+        0,
+        0,
+        17.799871444702148,
+        30.839466094970703,
+        1
+      ],
+      "name": "posed_Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "posed_Mesh_Ahri_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5.3249106407165527,
+        0,
+        36.150234222412109,
+        1
+      ],
+      "name": "transformfiddlesticks_skin04_fiddlesticksrework"
+    },
+    {
+      "mesh": 1,
+      "name": "transformfiddlesticks_skin04_fiddlesticksrework_Pumpkinhead_Fiddlesticks_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        12.998818397521973,
+        108.36429595947266,
+        -29.837062835693359,
+        1
+      ],
+      "name": "stone_Mesh"
+    },
+    {
+      "mesh": 2,
+      "name": "stone_Mesh_Zombie_Brand_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        0.45054671168327332,
+        0,
+        0,
+        0,
+        0,
+        0.45054671168327332,
+        0,
+        0,
+        0,
+        0,
+        0.45054671168327332,
+        0,
+        5.3249106407165527,
+        0,
+        0,
+        1
+      ],
+      "name": "transformyorick"
+    },
+    {
+      "mesh": 3,
+      "name": "transformyorick_Yorick_0"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        0.45187249844870225,
+        -0.018725909240517619,
+        -0.27461452275385473,
+        0,
+        -0.016536758647275461,
+        0.5250791163813523,
+        -0.063015932843242264,
+        0,
+        0.27475503889401787,
+        0.062400420685906885,
+        0.4478486426674223,
+        0,
+        -28.808744430541992,
+        22.394306182861328,
+        -65.184379577636719,
+        1
+      ],
+      "name": "zyragrave_Mesh"
+    },
+    {
+      "mesh": 4,
+      "name": "zyragrave_Mesh_Haunted_Zyra_Plants_0"
+    },
+    {
+      "children": [
+        15
+      ],
+      "name": "transformmaokai_gravedigger2"
+    },
+    {
+      "mesh": 5,
+      "name": "transformmaokai_gravedigger2_Haunted_Maokai_0"
+    },
+    {
+      "children": [
+        17
+      ],
+      "name": "zyra_Mesh2"
+    },
+    {
+      "mesh": 6,
+      "name": "zyra_Mesh2_Haunted_Zyra_Vines_0"
+    },
+    {
+      "children": [
+        19
+      ],
+      "name": "Podium_only_Podium_only_Podium_Podium_pCylinder3"
+    },
+    {
+      "mesh": 7,
+      "name": "Podium_only_Podium_only_Podium_Podium_pCylinder3_Podium_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    }
+  ]
+}
+

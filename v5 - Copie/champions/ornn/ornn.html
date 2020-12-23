@@ -1,0 +1,191 @@
+<!-- AUTHOR: Matt TAYLOR / Yoann SOCHAJ
+PROJET: Web L3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../champion.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Ornn</title>
+</head>
+<body style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874057108684810/ornn.jpg); height: 1000px">
+<div class="scene"></div>
+
+<!--Navigation bar-->
+<div id="mynavbar">
+
+</div>
+
+<script>
+    $(function(){
+        $("#mynavbar").load("../navbar_champions.php");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<script src="../../includes/three.min.js"></script>
+<script src="../../includes/GLTFLoader.js"></script>
+<script type="module" src="app.js"></script>
+<p>.</p>
+<form>
+    <h1 id="titre">
+        <p id="titrep1"> DIEU DE LA FORGE VOLCANIQUE</p>
+        <p id="titrep2">ORNN</p>
+    </h1>
+    <p id="story" style="background: rgba(50,50,50,0.9)">
+        <b>Ornn est le demi-dieu de la forge et de l'artisanat à Freljord</b>. Avec comme seule compagne la solitude, il travaille dans sa forge enfouie au plus profond des cavernes de lave de <b>l'Âtre-foyer</b>. C'est là qu'il fond et <b>purifie les métaux nécessaires à la création d'objets de qualité inimitable</b>. Tandis que d'autres divinités – <b>Volibear avant tout</b> – s'immiscent dans les affaires des mortels, <b>Ornn ne sort de son antre que pour remettre ces déités à leur place</b>, avec son fidèle marteau ou les pouvoirs du volcan lui-même.<h1 id="competence" >
+    COMPÉTENCES
+</h1>
+    <table>
+
+        <tr>
+            <td style="width: 220px">
+                <p id="champlie" style="margin-left: 10px; color:white">Champion lié:</p>
+                <input type="button" class="rond" style="background-image: url(https://cdn.discordapp.com/attachments/779434027081138186/780879406616150066/Cho27GathSquare.png)" onclick="location.href='../chogath/chogath.html'">
+            </td>
+            <td>
+
+                <video controls width="500" id="vid1" autoplay="true" muted="true" style="margin-left: 550px" style="margin-top: 0px" loop="true" >
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0516/ability_0516_P1.webm" type="video/webm" class="hide">
+                </video>
+                <video controls width="500" autoplay="true" id="vid2" muted="true" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0516/ability_0516_Q1.webm" type="video/webm" style="display:none" >
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid3" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0516/ability_0516_W1.webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid4" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0516/ability_0516_E1.webm" type="video/webm">
+                </video>
+                <video controls width="500" autoplay="true" muted="true" id="vid5" style="margin-left: 550px" style="margin-top: 500px"  loop="true">
+                    <source src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0516/ability_0516_R1.webm" type="video/webm">
+                </video>
+
+                <script>
+                    let vid2=document.getElementById("vid2");
+                    let vid3=document.getElementById("vid3");
+                    let vid4=document.getElementById("vid4");
+                    let vid5=document.getElementById("vid5")
+                    vid2.style.display="none";
+                    vid3.style.display="none";
+                    vid4.style.display="none";
+                    vid5.style.display="none";
+                </script>
+            </td>
+            <td >
+                <p id="spell1" class="spell1" name="spell">
+                    <i style="color:grey;"> PASSIVE </i><br>
+                    <b style="color: cornflowerblue" style="font-size: x-large"> FORGERON AMBULANT:</b> <br>
+                   Ornn augmente tous ses bonus d'armure et de résistance magique. Ornn peut dépenser des PO pour forger des objets non consommables n'importe où sur la carte. De plus, il peut créer des chefs-d'œuvre pour ses alliés ou lui-même.</p>
+                <p id="spell2" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">FRACTURE MAGMATIQUE: </b> <br>
+                    Ornn frappe le sol, créant une fissure qui blesse et ralentit les ennemis touchés. Après un court délai, une colonne de lave se forme au bout de la fissure.</p>
+                <p id="spell3" name="spell"  class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> FOURNAISE:</b> <br>
+                    Ornn avance en crachant des flammes. Les ennemis touchés par la dernière flamme deviennent fragiles.</p>
+                <p id="spell4" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large"> RUÉE ARDENTE:</b> <br>
+                    Ornn fonce dans une direction en infligeant des dégâts aux ennemis qu'il traverse. Si Ornn percute un terrain pendant la ruée, l'impact crée une onde de choc autour de lui qui blesse et projette en l'air les ennemis.</p>
+                <p id="spell5" name="spell" class="spell1" style="display: none">
+                    <b style="color: cornflowerblue" style="font-size: x-large">
+                       APPEL DU DIEU DE LA FORGE: </b><br>
+Ornn invoque un énorme élémentaire à l'endroit ciblé. Cet élémentaire se déplace ensuite vers Ornn, de plus en plus vite. Les ennemis écrasés par l'élémentaire subissent des dégâts, sont ralentis et deviennent fragiles. Ornn peut relancer cette compétence pour se ruer vers l'élémentaire, le réorientant selon la direction de la collision. L'élémentaire redirigé projette en l'air les ennemis qu'il touche, en infligeant les mêmes dégâts qu'avant et en appliquant de nouveau l'effet Fragilité.
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td style="text-align:left;" colspan="2">
+                <input type="button" class="spellimage1" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874143150243840/Living_Forge_26_Master_Craftsman.png);" onclick="afficher(1)">
+                <input type="button" class="spellimage2" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874149891538944/Volcanic_Rupture.png);"onclick="afficher(2)">
+                <input type="button" class="spellimage3" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874157297893376/Bellows_Breath.png);"onclick="afficher(3)">
+                <input type="button" class="spellimage4" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874164780269628/Searing_Charge.png);"onclick="afficher(4)">
+                <input type="button" class="spellimage5" style="background-image:url(https://cdn.discordapp.com/attachments/779434027081138186/780874172292268062/Call_of_the_Forge_God.png);"onclick="afficher(5)">
+            <td>
+        </tr>
+    </table>
+    <script>
+
+        function afficher(val){ //cette fonction va permettre d'afficher les bonnes videos selon la valeur de "val"
+            let vid1=document.getElementById("vid1");
+            let vid2=document.getElementById("vid2");
+            let vid3=document.getElementById("vid3");
+            let vid4=document.getElementById("vid4");
+            let vid5=document.getElementById("vid5");
+            if (val==1){
+                spell1.style.display="block";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="block";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==2){
+                spell1.style.display="none";
+                spell2.style.display="block";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="block";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==3){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="block";
+                spell4.style.display="none";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="block";
+                vid4.style.display="none";
+                vid5.style.display="none";
+
+            }
+            if (val==4){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="block";
+                spell5.style.display="none";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="block";
+                vid5.style.display="none";
+
+            }
+            if (val==5){
+                spell1.style.display="none";
+                spell2.style.display="none";
+                spell3.style.display="none";
+                spell4.style.display="none";
+                spell5.style.display="block";
+                vid1.style.display="none";
+                vid2.style.display="none";
+                vid3.style.display="none";
+                vid4.style.display="none";
+                vid5.style.display="block";
+
+            }
+        }
+    </script>
+</form>
+</body>
+
+</html>

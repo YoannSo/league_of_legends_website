@@ -1,0 +1,405 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 289,
+      "max": [
+        181.27397155761719,
+        9.8364019393920898,
+        181.27397155761719
+      ],
+      "min": [
+        -181.27397155761719,
+        0,
+        -181.27397155761719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3468,
+      "componentType": 5126,
+      "count": 289,
+      "max": [
+        0.067908786237239838,
+        1,
+        0.06790875643491745
+      ],
+      "min": [
+        -0.067908778786659241,
+        0.9976915717124939,
+        -0.067908748984336853
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 289,
+      "max": [
+        1,
+        0.067908786237239838,
+        0.00012552642147056758,
+        1
+      ],
+      "min": [
+        0.9976915717124939,
+        -0.067908778786659241,
+        -7.9310972068924457e-05,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 289,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1536,
+      "max": [
+        288
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6936,
+      "componentType": 5126,
+      "count": 6283,
+      "max": [
+        23.267707824707031,
+        225.78109741210938,
+        75.423027038574219
+      ],
+      "min": [
+        -80.192306518554688,
+        17.865507125854492,
+        -41.67938232421875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 82332,
+      "componentType": 5126,
+      "count": 6283,
+      "max": [
+        0.99969464540481567,
+        0.99993020296096802,
+        0.99895203113555908
+      ],
+      "min": [
+        -0.99990862607955933,
+        -0.99962818622589111,
+        -0.99952030181884766
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 4624,
+      "componentType": 5126,
+      "count": 6283,
+      "max": [
+        0.99948149919509888,
+        0.99950313568115234,
+        0.99952167272567749,
+        1
+      ],
+      "min": [
+        -0.99821364879608154,
+        -0.99967110157012939,
+        -0.99998724460601807,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2312,
+      "componentType": 5126,
+      "count": 6283,
+      "max": [
+        0.99736940860748291,
+        0.99934732913970947
+      ],
+      "min": [
+        0.00083029270172119141,
+        0.0010766983032226562
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6144,
+      "componentType": 5125,
+      "count": 24366,
+      "max": [
+        6282
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "David Geraud (https://sketchfab.com/apoduck)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/a58af024d60e4dfa8ae28c3b1a2ad22d",
+      "title": "League of Legends - Ashe ArtDeco skin"
+    },
+    "generator": "Sketchfab-3.22.13",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 103608,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52576,
+      "byteOffset": 103608,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 157728,
+      "byteOffset": 156184,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 105152,
+      "byteOffset": 313912,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 419064,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/M_Ashe_Grnd_baseColor.png"
+    },
+    {
+      "uri": "textures/M_Ashe_ArtDeco_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "M_Ashe_Grnd",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "M_Ashe_ArtDeco",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh_Grnd_M_Ashe_Grnd_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Ashe_Beautyshot1_M_Ashe_ArtDeco_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "ec136e55c1984492b305d46b0ee878fc.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Mesh_Grnd"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh_Grnd_M_Ashe_Grnd_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Ashe_Beautyshot1"
+    },
+    {
+      "mesh": 1,
+      "name": "Ashe_Beautyshot1_M_Ashe_ArtDeco_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
