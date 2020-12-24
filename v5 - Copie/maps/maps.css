@@ -15,7 +15,14 @@ body {
     background-size: 100% ;
     background-repeat: no-repeat;
 }
-
+.story{
+    position: relative;
+    color: dimgrey;
+    margin-left: 1500px;
+    top:-700px;
+    font-size: large;
+    right: 5px;
+}
 .navbar-dark{
     background-color: black;
     opacity: 0.7;
