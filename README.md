@@ -6,11 +6,11 @@
 </p>
 
 <p align="center" width=100%>
-  <img src="champion_page.PNG" width="30%" height="30%" alt="champions">
-  <img src="cho_gath_page.png" width="30%" height="30%" alt="cho_gath">
-  <img src="items_page.png" width="30%" height="30%" alt="items">
-  <img src="map_page.png" width="30%" height="30%" alt="maps">
-  <img src="profile_page.PNG" width="30%" height="30%" alt="profile">
+  <img src="champion_page.PNG" width="40%" height="40%" alt="champions">
+  <img src="cho_gath_page.png" width="40%" height="40%" alt="cho_gath">
+  <img src="items_page.png" width="40%" height="40%" alt="items">
+  <img src="map_page.png" width="40%" height="40%" alt="maps">
+  <img src="profile_page.PNG" width="40%" height="40%" alt="profile">
 </p>
 
 >## Project:
